@@ -8,6 +8,10 @@ O programa realiza as seguintes operações:
 - Cria uma lista de pedidos contendo diferentes produtos, clientes e vendedores.
 - Para cada pedido na lista, inicia a venda, exibindo informações sobre a transação.
 
+## Captura de Tela do Programa
+<img src="eclipse-workspace/ProjetoVersaoOO/src/br/com/screenshots/Captura%20de%20tela%202023-11-15%20175055.png" alt="Program in Execution" width="50%" style="max-width: 200px;">
+
+
 ## Estrutura do Código
 O código está estruturado da seguinte forma:
 
