@@ -15,7 +15,7 @@ public class Programa1 {
 		System.out.println("*********");
 		System.out.println("Iniciando venda ("+ i +")");
 		pedido.realizarVenda();
-		System.out.println("*********");
+		System.out.println("*********\n");
 
 	}
 }

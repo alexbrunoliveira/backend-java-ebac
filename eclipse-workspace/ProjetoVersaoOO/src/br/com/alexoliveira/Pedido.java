@@ -54,7 +54,7 @@ public class Pedido {
 		for(ItemVenda item : itens) {
 			valorTotal = valorTotal + item.calcularValorTotalItem();
 		}
-		return 0;
+		return valorTotal;
 	}
 
 	public void realizarVenda() {
@@ -70,9 +70,9 @@ public class Pedido {
 			System.out.println("Item Pedido: Produto:");
 			System.out.println("   Nome do produto = " + nomeProduto);
 			System.out.println("   Estoque anterior = " +  estoqueProduto);
-			System.out.println("    Quantidade item = " + valorProduto);
-			System.out.println("    		valor = " + totalItem);
-			System.out.println("        Total item = " + totalItem);
+			System.out.println("    Quantidade item = " + qtdeItem);
+			System.out.printf("    		valor = R$%.2f\n",  totalItem);
+			System.out.printf("        Total item = R$%.2f\n" , totalItem);
 
 			
 		}
@@ -91,8 +91,8 @@ public class Pedido {
 		// Acessa os dados totais
 		float totalPedido = calcularValorTotalPedido();
 		float totalComissa = calcularComissaPedido();
-		System.out.println("Valor total do pedido: " + totalPedido);
-		System.out.println("Valor total da comissão: " + totalComissa);
+		System.out.printf("Valor total do pedido: R$%.2f\n" , totalPedido);
+		System.out.printf("Valor total da comissão: R$%.2f\n" , totalComissa);
 		
 	}
 }
