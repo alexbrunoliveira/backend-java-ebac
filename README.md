@@ -32,7 +32,7 @@ Este é um projeto educacional desenvolvido como parte do curso da EBAC. Contrib
 
 ## Autor
 - **Nome:** Alex Oliveira
-- **Email:** alex.oliveira@example.com
+- **Email:** alex.brunoliveira@gmail.com
 
 ## Licença
 Este programa é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
